@@ -1,0 +1,175 @@
+{
+  "liblabVersion": "2.1.18",
+  "date": "2024-07-05T21:28:12.995Z",
+  "config": {
+    "apiId": 381,
+    "baseUrl": "https://www.cie.ups.com/api",
+    "sdkName": "ups-landedcost-client",
+    "sdkVersion": "1.0.0",
+    "liblabVersion": "2",
+    "deliveryMethods": ["zip"],
+    "languages": ["python"],
+    "apiVersion": "1.0.0",
+    "apiName": "ups-landedcost-client",
+    "specFilePath": "./ups_LandedCost.yaml",
+    "auth": ["basic"],
+    "languageOptions": {
+      "csharp": {
+        "packageId": "",
+        "githubRepoName": "",
+        "ignoreFiles": [],
+        "liblabVersion": "2",
+        "sdkVersion": "1.0.0"
+      },
+      "go": {
+        "goModuleName": "github.com/swagger-api/swagger-petstore",
+        "githubRepoName": "",
+        "ignoreFiles": [],
+        "liblabVersion": "2",
+        "sdkVersion": "1.0.0"
+      },
+      "python": {
+        "alwaysInitializeOptionals": false,
+        "pypiPackageName": "",
+        "githubRepoName": "",
+        "ignoreFiles": [],
+        "liblabVersion": "2",
+        "sdkVersion": "1.0.0"
+      },
+      "typescript": {
+        "bundle": false,
+        "exportClassDefault": false,
+        "httpClient": "axios",
+        "npmName": "",
+        "npmOrg": "",
+        "githubRepoName": "",
+        "ignoreFiles": [],
+        "liblabVersion": "2",
+        "sdkVersion": "1.0.0"
+      }
+    },
+    "publishing": {
+      "githubOrg": ""
+    },
+    "devContainer": false,
+    "generateEnv": true,
+    "includeOptionalSnippetParameters": true,
+    "inferServiceNames": false,
+    "injectedModels": [],
+    "license": {
+      "type": "MIT",
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT",
+      "path": "MIT.ejs"
+    },
+    "responseHeaders": false,
+    "retry": {
+      "enabled": true,
+      "maxAttempts": 3,
+      "retryDelay": 150,
+      "maxDelay": 5000,
+      "retryDelayJitter": 50,
+      "backOffFactor": 2,
+      "httpCodesToRetry": [408, 429, 500, 502, 503, 504],
+      "httpMethodsToRetry": ["GET", "POST", "PUT", "DELETE", "PATCH", "HEAD", "OPTIONS"]
+    },
+    "authentication": {
+      "basic": {
+        "enabled": true
+      }
+    },
+    "multiTenant": true,
+    "hooksLocation": {
+      "bucketKey": "12993/hooks.zip",
+      "bucketName": "dev-liblab-api-stack-hooks"
+    },
+    "specUrl": "https://dev-liblab-api-stack-specs.s3.us-east-1.amazonaws.com/381/open-api-spec.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIA3C2RXH7MWUCMN7ON%2F20240705%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240705T212806Z&X-Amz-Expires=43200&X-Amz-Signature=a3e3bec5bd622a8e1c534b4e3e63bf4f3ba881a524dc4533e356c398dae84a1a&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "workflow": null,
+    "includeWatermark": true,
+    "alwaysInitializeOptionals": false,
+    "pypiPackageName": "",
+    "githubRepoName": "",
+    "ignoreFiles": [],
+    "language": "python",
+    "deliveryMethod": "zip",
+    "hooks": {
+      "enabled": true,
+      "sourceDir": "/tmp/resources/hooks"
+    },
+    "usesFormData": false,
+    "environmentVariables": [],
+    "fileOutput": "/tmp",
+    "httpLibrary": {
+      "name": "axios",
+      "packages": {
+        "axios": "^1.6.8"
+      },
+      "languages": ["typescript"]
+    },
+    "customQueries": {
+      "paths": [],
+      "rawQueries": [],
+      "queriesData": []
+    }
+  },
+  "files": [
+    "src/ups_landedcost_client/models/base.py",
+    "src/ups_landedcost_client/models/utils/json_map.py",
+    "src/ups_landedcost_client/models/__init__.py",
+    "src/ups_landedcost_client/services/__init__.py",
+    "src/ups_landedcost_client/__init__.py",
+    "src/ups_landedcost_client/net/__init__.py",
+    "src/ups_landedcost_client/net/headers/__init__.py",
+    "src/ups_landedcost_client/net/transport/__init__.py",
+    "src/ups_landedcost_client/hooks/__init__.py",
+    "src/ups_landedcost_client/net/environment/__init__.py",
+    "src/ups_landedcost_client/net/request_chain/__init__.py",
+    "src/ups_landedcost_client/net/request_chain/handlers/__init__.py",
+    "src/ups_landedcost_client/net/transport/request.py",
+    "src/ups_landedcost_client/net/transport/response.py",
+    "src/ups_landedcost_client/net/transport/request_error.py",
+    "src/ups_landedcost_client/sdk.py",
+    "src/ups_landedcost_client/net/transport/serializer.py",
+    "src/ups_landedcost_client/services/utils/validator.py",
+    "src/ups_landedcost_client/services/utils/base_service.py",
+    "pyproject.toml",
+    ".gitignore",
+    "src/ups_landedcost_client/models/utils/cast_models.py",
+    "src/ups_landedcost_client/net/transport/utils.py",
+    "src/ups_landedcost_client/hooks/hook.py",
+    "install.sh",
+    "install.cmd",
+    "examples/install.sh",
+    "examples/install.cmd",
+    "src/ups_landedcost_client/net/headers/base_header.py",
+    "src/ups_landedcost_client/net/headers/basic_auth.py",
+    "src/ups_landedcost_client/net/environment/environment.py",
+    "src/ups_landedcost_client/net/request_chain/request_chain.py",
+    "src/ups_landedcost_client/net/request_chain/handlers/base_handler.py",
+    "src/ups_landedcost_client/net/request_chain/handlers/http_handler.py",
+    "src/ups_landedcost_client/net/request_chain/handlers/hook_handler.py",
+    "src/ups_landedcost_client/net/request_chain/handlers/retry_handler.py",
+    "examples/sample.py",
+    ".env.example",
+    "/examples/.env.example",
+    "src/ups_landedcost_client/services/utils/default_headers.py",
+    "./LICENSE",
+    "documentation/models/LandedCostRequest.md",
+    "documentation/models/LandedCostRequestShipment.md",
+    "documentation/models/RequestShipmentItems.md",
+    "documentation/models/BrokerageFeeItems.md",
+    "documentation/models/ResponseShipmentItems.md",
+    "documentation/models/Errors.md",
+    "src/ups_landedcost_client/services/landedcost.py",
+    "src/ups_landedcost_client/models/landed_cost_request.py",
+    "src/ups_landedcost_client/models/landed_cost_request_shipment.py",
+    "src/ups_landedcost_client/models/request_shipment_items.py",
+    "src/ups_landedcost_client/models/brokerage_fee_items.py",
+    "src/ups_landedcost_client/models/response_shipment_items.py",
+    "src/ups_landedcost_client/models/errors.py",
+    "documentation/services/LandedcostService.md",
+    "documentation/models/LandedCostResponse.md",
+    "src/ups_landedcost_client/models/landed_cost_response.py",
+    "README.md"
+  ]
+}
